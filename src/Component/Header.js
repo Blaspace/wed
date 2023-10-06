@@ -9,8 +9,12 @@ function Header() {
       <h1>Website Development, Website Design, Website Deployment</h1>
       <br />
       <span>
-        <button className="btn">Contact Us</button>
-        <button className="btn2">About Us</button>
+        <a href="#sixth" style={{ color: "#fafafa" }}>
+          <button className="btn">Contact Us</button>
+        </a>
+        <a href="#first" style={{ color: "#fafafa" }}>
+          <button className="btn2">About Us</button>
+        </a>
       </span>
       <div>
         <small>

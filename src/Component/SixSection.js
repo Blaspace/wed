@@ -3,7 +3,7 @@ import React from "react";
 function SixSection() {
   return (
     <div className="six-section-con">
-      <div className="six-section">
+      <div className="six-section" id="sixth">
         <div>
           <h2>Get In Touch with Us</h2>
           <br />
@@ -18,7 +18,7 @@ function SixSection() {
             itaque?
           </p>
         </div>
-        <form>
+        <form onSubmit={(e) => e.preventDefault()}>
           <input type="text" placeholder="full name..." />
           <br />
           <br />

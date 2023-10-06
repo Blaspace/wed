@@ -8,7 +8,7 @@ import { AiFillTwitterCircle, AiFillLinkedin } from "react-icons/ai";
 function FourthSection() {
   return (
     <div className="forth-section-con">
-      <div className="forth-section">
+      <div className="forth-section" id="fourth">
         <h2>Meet Our Team</h2>
         <p className="fourth-text">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque,
@@ -19,7 +19,7 @@ function FourthSection() {
         <section>
           <div>
             <span>
-              <img src={img} alt="profile" />
+              <img src={img3} alt="profile" />
             </span>
             <h3>John Bright</h3>
             <p>
@@ -63,7 +63,7 @@ function FourthSection() {
           </div>
           <div>
             <span>
-              <img src={img3} alt="profile" />
+              <img src={img} alt="profile" />
             </span>
             <h3>John Bright</h3>
             <p>

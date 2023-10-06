@@ -7,7 +7,7 @@ import { MdManageAccounts } from "react-icons/md";
 function SecondSection() {
   return (
     <div className="second-section-con">
-      <div className="second-section">
+      <div className="second-section" id="second">
         <br />
         <br />
         <h2>Our Services</h2>
