@@ -12,7 +12,8 @@ import Project from "./Component/Project";
 
 function App() {
   const [client, setClient] = useState();
-  const uri = "http://localhost:3500";
+  const uri = "https://webserver-x2zr.onrender.com";
+  //const uri = "http://localhost:3500";
   useEffect(() => {
     fetch(`${uri}/secret`, {
       method: "POST",

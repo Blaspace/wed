@@ -7,8 +7,11 @@ const CheckoutForm = ({ setPay, price }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
 
+    const uri = "https://webserver-x2zr.onrender.com";
+    //const uri = "http://localhost:3500";
+
     try {
-      fetch(`http://localhost:3500/stripe`, {
+      fetch(`${uri}/stripe`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
